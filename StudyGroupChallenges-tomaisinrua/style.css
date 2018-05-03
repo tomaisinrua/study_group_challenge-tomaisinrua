@@ -42,16 +42,29 @@ h2{
     font-size: 1.15rem;
 }
 
-label {
-    margin-left: -118px;
+.medium label {
+    margin-left: -120px;
     position: absolute;
-    width: 22px;
-    height: 22px;
-    background-color: #25b8db;
+    width: 23px;
+    height: 23px;
+    text-indent:25px;
+    background-color: red;
+    -webkit-transition: background-color 0.6s;
+    -moz-transition: background-color 0.6s;
+    -o-transition: background-color 0.6s;
+    transition: background-color 0.6s;
+  }
+  
+.medium input[type=checkbox]:checked + label {
+    background-color:#25b8db;
+    -webkit-transition: background-color 0.6s;
+    -moz-transition: background-color 0.6s;
+    -o-transition: background-color 0.6s;
+    transition: background-color 0.6s;
 }
 
-
 .medium label:after {
+    margin-left: -24px;
     position: absolute;
     bottom: 8px;
     width: 18px;
