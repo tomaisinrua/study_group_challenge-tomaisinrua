@@ -105,7 +105,7 @@ h2{
     -moz-transition: background-color 0.6s;
     -o-transition: background-color 0.6s;
     transition: background-color 0.6s;
-  }
+}
   
 .checkboxholder input[type=checkbox]:checked + label {
     background-color:#25b8db;
